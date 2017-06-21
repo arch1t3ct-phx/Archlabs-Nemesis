@@ -11,7 +11,6 @@
 #
 ##################################################################################################################
 
-sudo pacman -R gnome-terminal --noconfirm
 
 package="gnome-terminal-transparency"
 command="gnome-terminal"
