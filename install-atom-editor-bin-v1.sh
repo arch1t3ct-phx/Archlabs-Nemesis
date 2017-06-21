@@ -30,7 +30,7 @@ else
 	if pacman -Qi packer &> /dev/null; then
 
 		echo "Installing with packer"
-		packer -S --noedit  $package
+		packer -S --noedit --noconfirm  $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
 		
