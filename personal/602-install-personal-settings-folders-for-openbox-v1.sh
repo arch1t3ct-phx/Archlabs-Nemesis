@@ -29,15 +29,6 @@ echo "################################################################"
 
 [ -d $HOME"/.config/terminator" ] || mkdir -p $HOME"/.config/terminator"
 
-[ -d $HOME"/.config/lxterminal" ] || mkdir -p $HOME"/.config/lxterminal"
-
-# there is no terminix folder - all in dconf
-# you can use it to store personal settings/sessions
-#[ -d $HOME"/.config/terminix" ] || mkdir -p $HOME"/.config/terminix"
-
-[ -d $HOME"/.config/smplayer" ] || mkdir -p $HOME"/.config/smplayer"
-
-[ -d $HOME"/.config/qt5ct" ] || mkdir -p $HOME"/.config/qt5ct"
 
 
 echo "################################################################"
