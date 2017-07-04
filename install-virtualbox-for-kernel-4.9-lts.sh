@@ -13,7 +13,7 @@
 
 sudo pacman -S --noconfirm --needed virtualbox-host-dkms
 sudo pacman -S --noconfirm --needed linux-headers
-#sudo pacman -S --noconfirm --needed linux-lts-headers
+sudo pacman -S --noconfirm --needed linux-lts-headers
 
 
 package="virtualbox"
